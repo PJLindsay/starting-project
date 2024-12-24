@@ -1254,18 +1254,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"first-app@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "first-app@workspace:."
-  dependencies:
-    eslint: "npm:^8"
-    eslint-config-next: "npm:14.0.3"
-    next: "npm:14.0.3"
-    react: "npm:^18"
-    react-dom: "npm:^18"
-  languageName: unknown
-  linkType: soft
-
 "flat-cache@npm:^3.0.4":
   version: 3.2.0
   resolution: "flat-cache@npm:3.2.0"
@@ -2300,6 +2288,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:3.4.2":
+  version: 3.4.2
+  resolution: "prettier@npm:3.4.2"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 10c0/99e076a26ed0aba4ebc043880d0f08bbb8c59a4c6641cdee6cdadf2205bdd87aa1d7823f50c3aea41e015e99878d37c58d7b5f0e663bba0ef047f94e36b96446
+  languageName: node
+  linkType: hard
+
 "prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
@@ -2635,6 +2632,19 @@ __metadata:
   checksum: 10c0/53d010d2a1b014fb60d398c095f43912c353b7b44774e55222bb26fd428bc75b73d7bdfcae509ce927c23ca9c5aff2dc1bc82f191d30e57a879550bc2952bdb0
   languageName: node
   linkType: hard
+
+"starting-project@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "starting-project@workspace:."
+  dependencies:
+    eslint: "npm:^8"
+    eslint-config-next: "npm:14.0.3"
+    next: "npm:14.0.3"
+    prettier: "npm:3.4.2"
+    react: "npm:^18"
+    react-dom: "npm:^18"
+  languageName: unknown
+  linkType: soft
 
 "streamsearch@npm:^1.1.0":
   version: 1.1.0
